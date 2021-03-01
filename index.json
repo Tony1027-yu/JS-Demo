@@ -1,0 +1,36 @@
+jsonp({
+    "status": "1",
+    "regeocode": {
+        "addressComponent": {
+            "city": "西安市",
+            "province": "陕西省",
+            "adcode": "610116",
+            "district": "长安区",
+            "towncode": "610116010000",
+            "streetNumber": {
+                "number": "461号",
+                "location": "108.797208,34.2345919",
+                "direction": "西",
+                "distance": "192.198",
+                "street": "汉池路"
+            },
+            "country": "中国",
+            "township": "斗门街道",
+            "businessAreas": [
+                []
+            ],
+            "building": {
+                "name": [],
+                "type": []
+            },
+            "neighborhood": {
+                "name": [],
+                "type": []
+            },
+            "citycode": "029"
+        },
+        "formatted_address": "陕西省西安市长安区斗门街道食卤者润景怡园南区"
+    },
+    "info": "OK",
+    "infocode": "10000"
+})F

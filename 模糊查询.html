@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text">
+    <p>杭州</p>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+    </script>
+    <script>
+        var arr = ["大连市", "北京市"];
+
+        document.querySelector('input').oninput = function () {
+            console.log('监听val值的变化');
+            var keyword = document.querySelector('input').value;
+            search(arr, keyword);
+        };
+
+        function search(arr,keyword) {
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i].match(keyword) != null) {
+                    console.log('匹配成功');
+                }
+            }
+        }
+
+        // 点击通过ajax发送数据；
+        var data;
+        $('p').click(function () {
+            var searchValue = $(this).text();
+            $.ajax({
+                type:"POST",
+                async: false,
+                url: "https://cms.skyworth.net/crossSite/getStoreInfoCNData",
+                headers: {
+                    'Content-Type': 'application/json;charset=utf8'
+                },
+                data: JSON.stringify({
+                    "cityName": searchValue
+                }),
+                dataType: "json",
+                success: function (result) {
+                    data = result;
+                }
+            })
+            console.log(data.dataList);
+        })
+
+    </script>
+</body>
+
+</html>

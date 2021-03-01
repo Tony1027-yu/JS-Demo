@@ -1,0 +1,407 @@
+{
+    "code": 200,
+    "msg": "请求成功",
+    "data": [
+        {
+            "province": "辽宁省",
+            "datacity": [
+                {
+                    "city": "大连市",
+                    "storeinfo": [
+                        {
+                            "storeName": "苏宁大连高新万达店",
+                            "address": "辽宁省大连市高新区黄浦路500号",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁经开万达店",
+                            "address": "大连市金州区开发区辽河西路117号",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁大连麦凯乐店",
+                            "address": "大连市中山区青泥街57号",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        }
+                    ]
+                },
+                {
+                    "city": "沈阳市",
+                    "storeinfo": [
+                        {
+                            "storeName": "苏宁大连高新万达店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁经开万达店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁大连麦凯乐店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        }
+                    ]
+                },
+                {
+                    "city": "鞍山市",
+                    "storeinfo": [
+                        {
+                            "storeName": "苏宁大连高新万达店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁经开万达店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁大连麦凯乐店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        }
+                    ]
+                },
+                {
+                    "city": "抚顺市",
+                    "storeinfo": [
+                        {
+                            "storeName": "苏宁大连高新万达店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁经开万达店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁大连麦凯乐店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        }
+                    ]
+                },
+                {
+                    "city": "本溪市",
+                    "storeinfo": [
+                        {
+                            "storeName": "苏宁大连高新万达店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁经开万达店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁大连麦凯乐店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        }
+                    ]
+                },
+                {
+                    "city": "丹东市",
+                    "storeinfo": [
+                        {
+                            "storeName": "苏宁大连高新万达店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁经开万达店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁大连麦凯乐店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        }
+                    ]
+                },
+                {
+                    "city": "锦州市",
+                    "storeinfo": [
+                        {
+                            "storeName": "苏宁大连高新万达店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁经开万达店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁大连麦凯乐店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        }
+                    ]
+                },
+                {
+                    "city": "营口市",
+                    "storeinfo": [
+                        {
+                            "storeName": "苏宁大连高新万达店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁经开万达店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁大连麦凯乐店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        }
+                    ]
+                },
+                {
+                    "city": "阜新市",
+                    "storeinfo": [
+                        {
+                            "storeName": "苏宁大连高新万达店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁经开万达店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁大连麦凯乐店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        }
+                    ]
+                },
+                {
+                    "city": "辽阳市",
+                    "storeinfo": [
+                        {
+                            "storeName": "苏宁大连高新万达店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁经开万达店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁大连麦凯乐店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        }
+                    ]
+                },
+                {
+                    "city": "铁岭市",
+                    "storeinfo": [
+                        {
+                            "storeName": "苏宁大连高新万达店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁经开万达店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁大连麦凯乐店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        }
+                    ]
+                },
+                {
+                    "city": "朝阳市",
+                    "storeinfo": [
+                        {
+                            "storeName": "苏宁大连高新万达店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁经开万达店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁大连麦凯乐店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        }
+                    ]
+                },
+                {
+                    "city": "盘锦市",
+                    "storeinfo": [
+                        {
+                            "storeName": "苏宁大连高新万达店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁经开万达店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁大连麦凯乐店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        }
+                    ]
+                },
+                {
+                    "province": "辽宁省",
+                    "city": "葫芦岛市",
+                    "storeinfo": [
+                        {
+                            "storeName": "苏宁大连高新万达店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁经开万达店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁大连麦凯乐店",
+                            "address": "合肥市庐阳区宿州路76号苏宁易购",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "province": "山东省",
+            "datacity": [
+                {
+                    "city": "青岛市",
+                    "storeinfo": [
+                        {
+                            "storeName": "苏宁青岛高新万达店",
+                            "address": "辽宁省大连市高新区黄浦路500号",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁青岛经开万达店",
+                            "address": "大连市金州区开发区辽河西路117号",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        },
+                        {
+                            "storeName": "苏宁青岛麦凯乐店",
+                            "address": "大连市中山区青泥街57号",
+                            "hoursTime": "9:00-21:00",
+                            "phone": "18656059521",
+                            "county": "庐阳区"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            user-select: none;
+        }
+
+        #form-table {
+            width: 40vw;
+            margin: 10vh auto;
+            border: 1px solid #ccc;
+            padding: 3vw 2vw;
+        }
+
+        #form-table h1 {
+            font-size: 24px;
+        }
+
+        #form-table div form {
+            position: relative;
+        }
+
+        #form-table div h2 {
+            font-size: 23px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        #form-table div form {
+            width: inherit;
+            height: 30vh;
+            border: 1px dashed #ccc;
+            margin: 3vw 2vw;
+        }
+
+        #form-table div form button {
+            width: 6vw;
+            height: 2vw;
+            position: absolute;
+            bottom: 2vw;
+            left: 0;
+            right: 0;
+            margin: auto;
+            cursor: pointer;
+            font-size: 1.1979vw;
+        }
+
+        #form-table .data-step-02,
+        #form-table .data-step-03,
+        #form-table .data-step-01-copy,
+        #form-table .data-step-02-copy {
+            display: none;
+        }
+
+        #form-table .data-step-01-copy h6,
+        #form-table .data-step-02-copy h6 {
+            margin-top: -6vw;
+            float: right;
+            color: skyblue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="form-table">
+
+        <h1>商家注册</h1>
+
+        <div class="data-step-01">
+            <h2>step-01</h2>
+            <form>
+                <div>姓名：
+                    <label for=""><input type="text" placeholder="请输入你的姓名" name="name"></label>
+                </div>
+                <div>性别:
+                    <label><input type="radio" name="sex" value="男生">男生</label>
+                    <label><input type="radio" name="sex" value="女生">女生</label>
+                </div>
+                <button type="button">Next</button>
+            </form>
+        </div>
+
+        <div class="data-step-01-copy">
+            <p>姓名：<span class="name"></span></p>
+            <p>性别：<span class="female"></span></p>
+            <h6>change</h6>
+        </div>
+
+        <div class="data-step-02">
+            <h2>step-02</h2>
+            <form>
+                <div>年龄：
+                    <label for=""><input type="text" placeholder="请输入你的年龄"></label>
+                </div>
+                <div>爱好:
+                    <label><input type="checkbox" name="like">音乐</label>
+                    <label><input type="checkbox" name="like">旅游</label>
+                    <label><input type="checkbox" name="like">旅游</label>
+                    <label><input type="checkbox" name="like">旅游</label>
+                    <button type="button">Continue</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="data-step-02-copy">
+            <p>年龄：<span></span></p>
+            <p>爱好：<span></span></p>
+            <h6>change</h6>
+        </div>
+
+        <div class="data-step-03">
+            <h2>step-03</h2>
+            <form>
+                <button type="submit">submit</button>
+            </form>
+        </div>
+    </div>  
+
+</body>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+    var data_step_01_bool = true;
+    $('.data-step-01 button').on('click', function () {
+        data_step_01_bool = false;
+
+        // 填充个人信息；
+        $('.data-step-01-copy span.name').html($("input[name='name']").val());
+        // 
+        var inputRadio = $('.data-step-01 input');
+        for (let i = 0; i < inputRadio.length; i ++) {
+            if(inputRadio[i].checked == true) {
+                console.log($("input").eq(i));
+                $('.data-step-01-copy span.female').html($("input").eq(i).attr('value'));
+            }
+        }
+
+        // step-one change；
+        $('.data-step-01-copy h6').on('click', function () {
+            data_step_01_bool = true;
+
+            if (data_step_01_bool == false) {
+                $('.data-step-01').css({ 'display': 'none' });
+                $('.data-step-02').css({ 'display': 'block' });
+                $('.data-step-01-copy').css({ 'display': 'block' });
+            } else {
+                $('.data-step-01').css({ 'display': 'block' });
+                $('.data-step-01-copy').css({ 'display': 'none' });
+                $('.data-step-02').css({ 'display': 'none' });
+                $('.data-step-03').css({ 'display': 'none' });
+            };
+        });
+
+        if (data_step_01_bool == false) {
+            $('.data-step-01').css({ 'display': 'none' });
+            $('.data-step-02').css({ 'display': 'block' });
+            $('.data-step-01-copy').css({ 'display': 'block' });
+            $('.data-step-02-copy').css({ 'display': 'none' });
+        } else {
+            $('.data-step-01').css({ 'display': 'block' });
+            $('.data-step-01-copy').css({ 'display': 'none' });
+        };
+    });
+
+    var data_step_02_bool = true;
+    $('.data-step-02 button').on('click', function () {
+        data_step_02_bool = false;
+
+        // step-twe change；
+        $('.data-step-02-copy h6').on('click', function () {
+            data_step_02_bool = true;
+
+            if (data_step_02_bool == false) {
+                $('.data-step-02').css({ 'display': 'none' });
+                $('.data-step-03').css({ 'display': 'block' });
+                $('.data-step-02-copy').css({ 'display': 'block' });
+            } else {
+                $('.data-step-01').css({ 'display': 'none' });
+                $('.data-step-01-copy').css({ 'display': 'block' });
+                $('.data-step-02').css({ 'display': 'block' });
+                $('.data-step-02-copy').css({ 'display': 'none' });
+                $('.data-step-03').css({ 'display': 'none' });
+            };
+        });
+
+        if (data_step_02_bool == false) {
+            $('.data-step-02').css({ 'display': 'none' });
+            $('.data-step-03').css({ 'display': 'block' });
+            $('.data-step-02-copy').css({ 'display': 'block' });
+        } else {
+            $('.data-step-02').css({ 'display': 'block' });
+        };
+    })
+</script>
+
+</html>

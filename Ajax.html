@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /* 创建一个对象 */
+        var xhr = new XMLHttpRequest();
+        /* 配置这个对象【方法，路径，是否是异步】 */
+        xhr.open('get', 'www.baidu.com', true) /* 我们必须使用异步，不能修改成同步* /
+        /*准备接受响应*/
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState !== 4) {
+                return
+                /*  readyState === 4，服务器是给出全部响应，但是我们还需要的是进一步的去判断服务器的响应结果，也就是响应的状态码。这个状态码放置在xhr.status中，当状态码在[200.300)之间时，说明请求成功，ajax是不支持请求重定向的。*/
+            }
+            /* status 200-300 ===> 表示成功 */
+            if (xhr.status > 200 && xhr.status < 300) {
+                /* 响应成功，我们就取到了响应的数据。数据被放置在xhr.responseText中 */
+            }
+        }
+        xhr.send();
+
+        function Person() {
+
+        }
+        // prototype是函数才会有的属性
+        Person.prototype.name = 'Kevin';
+        var person1 = new Person();
+        var person2 = new Person();
+        console.log(person1.name) // Kevin
+        console.log(person2.name) // Kevin
+
+        function Person() {
+
+        }
+        var person = new Person();
+        console.log(person.__proto__ === Person.prototype); // true
+    </script>
+</body>
+
+</html>
